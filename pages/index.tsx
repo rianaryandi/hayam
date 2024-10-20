@@ -25,8 +25,8 @@ export const meta = {
   author: "Sat Naing",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/satnaing-dev-og-new.png`,
-  siteName: "Sat Naing",
-  imageAlt: "Sat Naing portfolio website",
+  siteName: "Gedomazo",
+  imageAlt: "Gedomazo portfolio website",
 };
 
 const Home: NextPage<Props> = ({ blogPosts }) => {
@@ -37,7 +37,7 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
-      <Loader>SatNaing.dev</Loader>
+      <Loader>Gedomazo.dev</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <SkipToMain />
